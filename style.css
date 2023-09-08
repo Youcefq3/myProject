@@ -11,7 +11,8 @@ h2:first-of-type::before {
     height: 5px;
     width: 0;
     transition: 0.3s;
+    background-color: indianred;
 }
 h2:first-of-type:hover::before {
     width: 100%;
-} 
+}
