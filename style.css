@@ -1,0 +1,17 @@
+h2:first-of-type {
+    position: relative;
+    margin: 20px auto;
+    width: fit-content;
+}
+h2:first-of-type::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    height: 5px;
+    width: 0;
+    transition: 0.3s;
+}
+h2:first-of-type:hover::before {
+    width: 100%;
+} 
