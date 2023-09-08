@@ -6,12 +6,13 @@ h2:first-of-type {
 h2:first-of-type::before {
     content: "";
     position: absolute;
-    top: -5px;
+    top: 0;
     left: 0;
-    height: 5px;
+    height: 100%;
     width: 0;
     transition: 0.3s;
     background-color: indianred;
+    z-index: -1;
 }
 h2:first-of-type:hover::before {
     width: 100%;
