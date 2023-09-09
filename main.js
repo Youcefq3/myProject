@@ -5,4 +5,3 @@ header.innerText = "Test Repo"
 document.body.prepend(header);
 document.body.prepend("This is from YoucefBranch");
 
-console.alert("This is From JS")
